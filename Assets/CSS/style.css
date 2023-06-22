@@ -14,3 +14,11 @@ h1 {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.search-box {
+  /* display: flex;
+  color: #973b3b;
+  justify-content: left;
+  align-items: left; */
+  margin: 2% 0;
+}
