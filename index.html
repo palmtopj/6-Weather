@@ -10,6 +10,14 @@
   </head>
   <body>
      <h1>Weather Forecast</h1>
+     <div class="search-box">
+      <input
+        type="text"
+        class="search-bar"
+        placeholder="enter city name"
+        onkeypress="setQuery(event)"
+      />
+    </div>
     <div class="container">
       <div class="weather-container">
         </div>
@@ -24,14 +32,7 @@
         </div>
       </div>
     </div>
-    <div class="search-box">
-      <input
-        type="text"
-        class="search-bar"
-        placeholder="enter city name"
-        onkeypress="setQuery(event)"
-      />
-    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
